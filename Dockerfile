@@ -1,4 +1,4 @@
-FROM postgres:12
+FROM postgres:9.6
 
 ENV POSTGRES_DB app
 ENV POSTGRES_USER admin
